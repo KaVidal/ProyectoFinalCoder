@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Productos</title>
 </head>
@@ -55,21 +57,17 @@
         
     </nav>
 </header>
-        
-    <!-- Contenido -->
 
-    <h2 class="titulos__h2">Productos</h2>
-    
-    <div class="grid">
-        <img src="../imagenes/FotoTortas.png" alt="Fotos de los Productos">
-        <img src="../imagenes/brownie.png" alt="Fotos de los Productos">
-        <img src="../imagenes/Carrot.png" alt="Fotos de los Productos">
-        <img src="../imagenes/Chipà.png" alt="Fotos de los Productos">
-        <img src="../imagenes/Foto Alfajores.png" alt="Fotos de los Productos">
-        <img src="../imagenes/huevos.png" alt="Fotos de los Productos">
-    </div>
+<!-- BODY -->
 
-    <h3 class="titulos__h3">Dulce</h3>
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Productos</li>
+    </ol>
+</nav>
+
+<!-- <h3 class="titulos__h3">Dulce</h3>
 
     <div class="productos">
         <ul class="lista">
@@ -97,13 +95,56 @@
             <li><a href="">Scons</a></li>
             <li><a href="">Chipa</a></li>
         </ul>
+    </div> -->
+
+    <h4 class="titulos__h4">Tortas</h4>
+
+    <div class="container">
+        <div class="row">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="./imagenes/Carrot.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Carrot Cake</h5>
+                    </div>
+                   </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./imagenes/Torta Frutillas.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Torta Frutillas</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./imagenes/TortaBrownie.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Torta Brownie</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./imagenes/TortaPersonalizada.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Torta Corazón</h5>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    
 
     <!-- Footer -->
 
-    <footer class="footer-container">
+    <footer class="footer__container">
 
-        <section class="footer-body">
+        <section class="footer__body">
             <div>
                 <h3 class="titulos__h3">Seguinos en</h3>
                 <ul>
@@ -125,12 +166,14 @@
                 </ul>
             </div> 
         </section>
-        <section class="footer-copyright">    
+        <section class="footer__copyright">    
             <h3 class="titulos__h3">Copyright © 2021 Katherine Vidal</h3>
         </section>
 
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
 </body>
 </html>

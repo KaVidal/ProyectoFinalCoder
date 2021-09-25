@@ -73,6 +73,11 @@ header label:hover{
     transition: all 1s;
 }
 
+.img-portada{
+    display: flex;
+    justify-content: center;
+}
+
 /* MEDIA QUERIES HEADER */
 
 @media (max-width: 768px){
@@ -144,6 +149,12 @@ header label:hover{
     font-family: 'Pacifico', cursive;
 }
 
+h2{
+    margin: 5rem;
+    text-align: center;
+    font-size: 5rem;
+}
+
 .titulos__h2{
     margin: 2rem 0;
     font-size: 2rem;
@@ -151,6 +162,11 @@ header label:hover{
 }
 
 .titulos__h3{
+    font-size: 2rem;
+}
+
+.titulos__h4{
+    text-align: center;
     font-size: 2rem;
 }
 
@@ -178,42 +194,24 @@ header label:hover{
 div.scale:hover{
     transform: scale(1,1);
 }
-/*contenedor de imagen*/
 
-.imagen-box{
-    width: 85%;
-    height: 85%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+/* BOOTSTRAP */
+
+.card{
+    margin: 2rem;
 }
 
-/*contenedor exclusivamente para declarar que area quiero que ocupe cada imagen*/
-
-.imagen1{
-    grid-area: imagen1;
+.card-title{
+    font-size: 2rem;
+    text-align: center;
 }
 
-.imagen2{
-    grid-area: imagen2;
+.breadcrumb{
+    font-size: 2rem;
+    padding: 2rem;
 }
 
-.imagen3{
-    grid-area: imagen3;
-}
-
-.imagen4{
-    grid-area: imagen4;
-}
-
-.imagen5{
-    grid-area: imagen5;
-}
-
-.imagen6{
-    grid-area: imagen6;
-}
+/* TEXTO */
 
 .texto{
     margin-top: 4rem;
@@ -222,9 +220,11 @@ div.scale:hover{
     text-align: 1.5;
 }
 
+/* LISTAS PRODUCTOS */
+
 .productos .lista{
     display: flex;
-    font-size: 2rem;
+    font-size: 1rem;
     flex-direction: column;
 }
 
@@ -232,39 +232,37 @@ div.scale:hover{
     margin: 0 2rem;
 }
 
+/* FORMULARIO CONTACTO */
+
 form{
     font-size: 1.5rem;
 }
 
 /* FOOTER */
 
-footer{
-    background-color: rgba(252, 180, 180, 0.952);
+.footer__container{
+    background-color: rgba(84, 205, 235, 0.952);
+    width: 100%;
     display: flex;
+    flex-direction: column;
     padding: 1rem;
     line-height: 1.5rem;
     text-align: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
 }
 
-.footer-container{
+.footer__body{
     display: flex;
-    flex-direction: column;
-}
-
-.footer-body{
-    display: flex;
-    width: 100%;
     margin-bottom: 3rem;
     justify-content: space-evenly;
     align-items: baseline;
 }
 
-.footer-body .medios__pago{
+.footer__body .medios__pago{
     margin-top: 1rem;
 }
 
-.footer-copyright{
+.footer__copyright{
     display: flex;
     justify-content: center;
 }
