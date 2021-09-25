@@ -84,6 +84,13 @@ header label:hover{
     #btn-menu{
         overflow: hidden;
     }
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .header-logo{
         height: 10rem;
         display: flex;
