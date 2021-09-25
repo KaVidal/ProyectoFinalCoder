@@ -16,6 +16,10 @@ header{
     background-color: rgba(252, 180, 180, 1);
 }
 
+body{
+    background-color: rgb(245, 239, 231);
+}
+
 #btn-menu{
     display: none;
 }
