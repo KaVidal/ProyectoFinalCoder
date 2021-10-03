@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.texto-propuestas {
+  margin: 2rem 0;
+  font-size: 2rem;
+  color: #000;
+}
+
+.propuestas .propuesta_cumple {
+  width: 100%;
+  height: auto;
+}
+.propuestas .cumpleaños {
+  margin-bottom: 2rem;
+  transition: 0.15s;
+}
+.propuestas .aniversarios {
+  margin-bottom: 2rem;
+}
+.propuestas .casamientos {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 992px) {
+  .texto-propuestas {
+    font-size: 4rem;
+  }
+}/*# sourceMappingURL=propuestas.css.map */

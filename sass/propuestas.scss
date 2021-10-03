@@ -1,0 +1,34 @@
+$m-bottom: 2rem;
+$carousel-control-transition: .15s;
+$bg-color: #000;
+$font-txt: 2rem;
+$ancho: 980px;
+
+.texto-propuestas{
+    margin: 2rem 0;
+    font-size: $font-txt;
+    color: $bg-color;
+}
+
+.propuestas{
+    .propuesta_cumple{
+        width: 100%;
+        height: auto;
+    }
+    .cumpleaños{
+        margin-bottom: $m-bottom;
+        transition: $carousel-control-transition;
+    }
+    .aniversarios{
+        margin-bottom: $m-bottom;
+    }
+    .casamientos{
+        margin-bottom: $m-bottom;
+    }
+}
+
+@media (min-width: 992px){
+    .texto-propuestas{
+        font-size: $font-txt*2;
+    }
+}
